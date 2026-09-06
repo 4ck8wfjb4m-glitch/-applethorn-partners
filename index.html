@@ -1,146 +1,79 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
   <meta charset="UTF-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Applethorn Partners</title>
-  <meta name="description" content="Applethorn Partners is an independent digital publishing and referral business connecting audiences with useful products and services.">
+
+  <title>Applethorn Partners | Smarter Choices Online</title>
+
+  <meta name="description" content="Independent recommendations, comparisons and useful resources to help you make smarter choices online.">
+
   <style>
-    * { box-sizing: border-box; }
-    body {
+
+    * {
+
+      box-sizing: border-box;
+
       margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-      color: #1f2937;
+
+      padding: 0;
+
+    }
+
+    body {
+
+      font-family: Arial, Helvetica, sans-serif;
+
       background: #f7f8fa;
+
+      color: #1d2939;
+
       line-height: 1.6;
+
     }
+
     header {
-      background: #16263d;
+
+      background: #102a43;
+
       color: white;
-      padding: 22px 7%;
+
+      padding: 22px 8%;
+
+    }
+
+    nav {
+
+      max-width: 1100px;
+
+      margin: auto;
+
       display: flex;
-      align-items: center;
+
       justify-content: space-between;
+
+      align-items: center;
+
     }
-    .brand { font-size: 1.35rem; font-weight: 700; letter-spacing: .3px; }
-    nav a { color: #fff; text-decoration: none; margin-left: 22px; font-size: .95rem; }
+
+    .logo {
+
+      font-size: 24px;
+
+      font-weight: bold;
+
+    }
+
     .hero {
-      padding: 90px 7%;
-      background: linear-gradient(135deg, #16263d, #294a70);
+
+      background: #102a43;
+
       color: white;
+
       text-align: center;
-    }
-    .hero h1 { font-size: clamp(2.2rem, 6vw, 4rem); margin: 0 0 18px; }
-    .hero p { max-width: 760px; margin: auto; font-size: 1.15rem; opacity: .94; }
-    main { max-width: 1050px; margin: auto; padding: 60px 7%; }
-    section { margin-bottom: 55px; }
-    h2 { color: #16263d; font-size: 1.8rem; margin-bottom: 15px; }
-    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: 20px; }
-    .card {
-      background: white;
-      padding: 26px;
-      border-radius: 12px;
-      box-shadow: 0 4px 18px rgba(0,0,0,.06);
-    }
-    .card h3 { margin-top: 0; color: #294a70; }
-    .notice {
-      background: #eef3f8;
-      border-left: 4px solid #294a70;
-      padding: 20px;
-      border-radius: 6px;
-    }
-    footer {
-      text-align: center;
-      padding: 30px 7%;
-      background: #16263d;
-      color: #dbe4ee;
-      font-size: .9rem;
-    }
-    @media (max-width: 650px) {
-      nav { display: none; }
-      .hero { padding: 70px 7%; }
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <div class="brand">Applethorn Partners</div>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#what-we-do">What We Do</a>
-      <a href="#disclosure">Disclosure</a>
-    </nav>
-  </header>
 
-  <div class="hero">
-    <h1>Applethorn Partners</h1>
-    <p>Independent digital publishing, research and referral — helping connect people with relevant products, services and opportunities.</p>
-  </div>
-
-  <main>
-    <section id="about">
-      <h2>About Us</h2>
-      <p>Applethorn Partners is an independent online publishing and referral business. We research products and services, create useful informational content, and help audiences discover providers that may meet their needs.</p>
-    </section>
-
-    <section id="what-we-do">
-      <h2>What We Do</h2>
-      <div class="cards">
-        <div class="card">
-          <h3>Research</h3>
-          <p>We research and evaluate products, services and providers across selected consumer and business sectors.</p>
-        </div>
-        <div class="card">
-          <h3>Content</h3>
-          <p>We publish clear, useful information designed to help readers understand and compare available options.</p>
-        </div>
-        <div class="card">
-          <h3>Referrals</h3>
-          <p>Where appropriate, we connect interested users with third-party providers through referral and affiliate partnerships.</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="disclosure">
-      <h2>Affiliate Disclosure</h2>
-      <div class="notice">
-        <p>Some links on this website may be affiliate links. This means Applethorn Partners may receive a commission if a visitor follows a link and completes a qualifying action or purchase. This does not normally increase the price paid by the visitor.</p>
-      </div>
-    </section>
-
-    <section>
-      <h2>Our Approach</h2>
-      <p>We aim to operate transparently, responsibly and in accordance with applicable laws, advertising requirements and partner programme terms. Third-party products and services remain subject to the provider's own terms, eligibility criteria and availability.</p>
-    </section>
-  </main>
-
-  <footer>
-    &copy; 2026 Applethorn Partners. All rights reserved.
-  </footer>
-  <script>
-
-  document.addEventListener("DOMContentLoaded", function () {
-
-    document.querySelectorAll('a[href^="#"]').forEach(function (link) {
-
-      link.addEventListener("click", function (event) {
-
-        const target = document.querySelector(this.getAttribute("href"));
-
-        if (target) {
-
-          event.preventDefault();
-
-          target.scrollIntoView({ behavior: "smooth" });
-
-        }
-
-      });
-
-    });
-
-  });
-
-</script>
-</body>
-</html>
+      padding: 90px 20px 110px;
